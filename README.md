@@ -6,6 +6,7 @@
 
 This is an anlayis of an election audit of the results for the US Congressional precinct in Colorado. Using python to automate the task, we reported the total amount of votes, total number of votes for each candidate, the percentage of votes for each candidate, and the winner of the election based on the popular vote. In addition, we report the voter turnout for each county, percentage of votes from each county, and the county with the highest turnout. 
 
+
 ## Results
 
 ### How many votes were cast in this congressional election?
@@ -294,12 +295,7 @@ Using the script to find the candidate votes data, create an if statement to det
 
 ![PyPoll.py](https://github.com/alexhuynh0530/Election_Analysis/blob/main/PyPoll.py)
 
-#### Original Script
-
-
 
 ## Summary
 
-Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
-
-
+In summary, the script successfully automated the counting process to output the necessary data quickly. If we made some modifications we could narrow down the data even more and look at the number of votes and percentage of votes that each candidate had at the county level. We could also modify the script for presidential elections and replace county to find voting data at the state level and add in data related to specific political parties.
