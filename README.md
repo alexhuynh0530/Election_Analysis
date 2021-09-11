@@ -290,8 +290,8 @@ Using the script to find the candidate votes data, create an if statement to det
     print(winning_candidate_summary)
 ```
 
-
-![VBA_Challenge_2017_results.png](https://github.com/alexhuynh0530/stock-analysis/blob/main/Resources/VBA_Challenge_2017_results.png)
+*PLEASE NOTE: FULL PYTHON SCRIPT CAN BE FOUND AT PyPollChallenge.py*
+![PyPoll.py](https://github.com/alexhuynh0530/Election_Analysis/blob/main/PyPoll.py)
 
 #### Original Script
 
