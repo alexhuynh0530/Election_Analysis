@@ -8,13 +8,12 @@ This is an anlayis of an election audit of the results for the US Congressional 
 
 ## Results
 
-Election-Audit Results: Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
-
 ### How many votes were cast in this congressional election?
 
 The total number of votes were 369,711 votes.
 
 #### Pseudocode
+- Add a variable to load the file from a path
 - Create a total vote counter variable and initialize to zero.
 - Open election_results.csv file
 - Create a for loop to loop through each row of the CSV file
@@ -22,33 +21,32 @@ The total number of votes were 369,711 votes.
 
 #### Python Code
 
-```# Add our dependencies.
-import csv
-import os
-
+```
 # Add a variable to load a file from a path.
 file_to_load = os.path.join("Resources", "election_results.csv")
-# Add a variable to save the file to a path.
-file_to_save = os.path.join("analysis", "election_analysis.txt")
-
+```
+```
 # Initialize a total vote counter.
 total_votes = 0
 ```
-
-
-```# Read the csv and convert it into a list of dictionaries
+```
+# Read the csv and convert it into a list of dictionaries
 with open(file_to_load) as election_data:
     reader = csv.reader(election_data)
-
+```
+```
     # Read the header
     header = next(reader)
-
+```
+```
     # For each row in the CSV file.
     for row in reader:
-
+```
+```
         # Add to the total vote count
         total_votes = total_votes + 1
 ```
+
 ### Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
 
 County Votes:
@@ -65,6 +63,32 @@ Arapahoe:
 - 24,801 votes
 - 6.7% of total votes
 
+#### Pseudocode
+- Create a total vote counter variable and initialize to zero.
+- Open election_results.csv file
+- Create a for loop to loop through each row of the CSV file
+- Add the to the total vote counter each time it loops through each row
+
+#### Python Code
+
+```
+# Initialize a total vote counter.
+total_votes = 0
+```
+
+```# Read the csv and convert it into a list of dictionaries
+with open(file_to_load) as election_data:
+    reader = csv.reader(election_data)
+
+    # Read the header
+    header = next(reader)
+
+    # For each row in the CSV file.
+    for row in reader:
+
+        # Add to the total vote count
+        total_votes = total_votes + 1
+```        
 
 ### Which county had the largest number of votes?
 
