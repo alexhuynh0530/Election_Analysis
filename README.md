@@ -22,8 +22,7 @@ The total number of votes were 369,711 votes.
 
 #### Python Code
 
-'''
-# Add our dependencies.
+```# Add our dependencies.
 import csv
 import os
 
@@ -34,10 +33,10 @@ file_to_save = os.path.join("analysis", "election_analysis.txt")
 
 # Initialize a total vote counter.
 total_votes = 0
-'''
+```
 
-'''
-# Read the csv and convert it into a list of dictionaries
+
+```# Read the csv and convert it into a list of dictionaries
 with open(file_to_load) as election_data:
     reader = csv.reader(election_data)
 
@@ -49,8 +48,7 @@ with open(file_to_load) as election_data:
 
         # Add to the total vote count
         total_votes = total_votes + 1
-'''
-
+```
 ### Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
 
 County Votes:
