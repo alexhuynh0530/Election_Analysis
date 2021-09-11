@@ -291,6 +291,7 @@ Using the script to find the candidate votes data, create an if statement to det
 ```
 
 *PLEASE NOTE: FULL PYTHON SCRIPT CAN BE FOUND AT PyPollChallenge.py*
+
 ![PyPoll.py](https://github.com/alexhuynh0530/Election_Analysis/blob/main/PyPoll.py)
 
 #### Original Script
